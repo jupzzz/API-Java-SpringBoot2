@@ -21,6 +21,7 @@ public class User {
 	
 	@Column(name = "password", columnDefinition = "TEXT", nullable = true)
 	private String password;
+	
 	public String getEmail() {
 		return email;
 	}
